@@ -2,12 +2,12 @@ var playlist = {
   Blink182: "Age Again"
 }
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  Object.assign(playlist, {artistName : songTitle})
-  return playlist
+function updatePlaylist(playlist2, artistName, songTitle) {
+  Object.assign(playlist2, {artistName : songTitle})
+  return playlist2
 }
 
-function removeFromPlaylist(playlist, artistName){
-  delete playlist.artistName
-  return playlist
+function removeFromPlaylist(playlist2, artistName){
+  delete playlist2.artistName
+  return playlist2
 }
